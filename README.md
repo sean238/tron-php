@@ -8,6 +8,7 @@ TRON-PHP 目前支持波场的 TRX 和 TRC20 中常用生成地址，发起转�
 
 1. 一套写法兼容 TRON 网络中 TRX 货币和 TRC 系列所有通证
 1. 接口方法可可灵活增减
+2. 支持PHP8
 
 ## 支持方法
 
@@ -25,7 +26,7 @@ TRON-PHP 目前支持波场的 TRX 和 TRC20 中常用生成地址，发起转�
 ### 安装
 
 ``` php
-composer require fenguoz/tron-php
+composer require sean/tron-php
 ```
 
 ### 接口调用
