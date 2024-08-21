@@ -1,0 +1,37 @@
+{
+    "name": "sean/tron-php",
+    "description": "Support TRON's TRX and TRC20, which include functions such as address creation, balance query, transaction transfer, query the latest blockchain, query information based on the blockchain, and query information based on the transaction hash",
+    "keywords": [
+        "php",
+        "tron",
+        "trx",
+        "trc20"
+    ],
+    "type": "library",
+    "homepage": "https://github.com/Fenguoz/tron-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sean",
+            "email": "sean20001@proton.me"
+        }
+    ],
+    "require": {
+        "iexbase/tron-api": "^5.0",
+        "ionux/phactor": "1.0.8",
+        "kornrunner/keccak": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7 || ^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tron\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "tests/"
+        }
+    }
+}
